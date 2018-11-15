@@ -1,3 +1,12 @@
+#!/usr/bin/python
+
+'''
+Will exclude V-GENEs that are biologically
+not removes any V-gene segment that isn't biologically possible.
+Only if atleast 1 biologically possible gene segment remains in this
+column the CDR3 is included for analysis.
+'''
+
 import pandas as pd
 
 
