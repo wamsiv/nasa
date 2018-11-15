@@ -1,4 +1,4 @@
-Each heavy chain of the antibody is composed of the recombination of a specific V, D, and J gene segment. As Dr. Chapes has talked about previously, we're interested in the ontogeny of these CDR3s. Biologically, even if two different heavy chains have the SAME CDR3, if they do not have the same V/D/J Gene segments, they cannot be related.
+Each heavy chain of the antibody is composed of the recombination of a specific V, D, and J gene segment. We're interested in the ontogeny of these CDR3s. Biologically, even if two different heavy chains have the SAME CDR3, if they do not have the same V/D/J Gene segments, they cannot be related.
 
 Sample date is in `scripts\Example_Data.xlsx`
 
