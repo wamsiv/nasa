@@ -5,3 +5,11 @@ Sample date is in `scripts\Example_Data.xlsx`
 `scripts\vgene_exclusion.py` - Will exclude V-GENEs that are biologically not removes any V-gene segment that isn't biologically possible. Only if atleast 1 biologically possible gene segment remains in this column the CDR3 is included for analysis.
 
 `scripts\nucleotide_to_aa.py` -  convert the data from nucleotiodes into amino acid data for inclusion with the data in Amino Acids. wikipedia has a nice chart if you need more information at https://en.wikipedia.org/wiki/DNA_codon_table
+
+`scripts\polarity_charge.py` - Each amino acid has its own polarity. So when forming a junction for example "CER", how does we calculate charge and overall polarity for it? my mathematical assumption would be 
+C -> neutral, polar
+E -> negative, polar
+R -> positive, polar
+
+Charge: 0-+
+Polarity: +++
